@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Victor P.P</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+}
+
+table {
+      margin: 50px auto;
+        border-collapse: collapse;
+      }
+        th, td {
+        border: 3px solid #333;
+        padding: 30px;
+      }
+     th {
+        background-color: #f2f2f2;
+     }
+
+</style>
+</head>
+<body>
+
+
+
+<!-- Header -->
+<header class="w3-container w3-theme w3-padding" id="myHeader">
+    <i onclick="w3_open()" class="fa fa-bars w3-xlarge w3-button w3-theme"></i> 
+    <div class="w3-center">
+    <h4>BEAUTIFUL WEB SITES</h4>
+    <h1 class="w3-xxxlarge w3-animate-bottom">JavaScript language</h1>
+      <div class="w3-padding-32">
+      </div>
+    </div>
+  </header>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-theme-l1">Logo</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Values</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">News</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Clients</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Partners</a>
+  </div>
+</div>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+    <i class="fa fa-remove"></i>
+  </a>
+  <h4 class="w3-bar-item"><b>Menu</b></h4>
+  <a class="w3-bar-item w3-button w3-hover-black" href="Style CSS website.html">Home</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="HTML CSS website design.html">HTML</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="CSS CSS website.html">CSS</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="Java CSS website.html">Java</a>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="w3-main" style="margin-left:250px">
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">Sturcture of Javascript</h1>
+<p>In HTML, JavaScript is usually included within &lt;script&gt; tags. The &lt;script&gt; tag is used to define a section of client-side JavaScript code in an HTML document. It is used to embed JavaScript code directly within an HTML document, allowing for the creation of dynamic and interactive web pages. When the web page loads, the code within the &lt;script&gt; tag is executed by the web browser. JavaScript can be used to manipulate HTML elements, interact with the user, and perform a variety of other tasks. 
+</p>
+
+      <pre><code>&lt;!DOCTYPE html&gt;
+        &lt;html&gt;
+          &lt;head&gt;
+            &lt;body&gt;
+              &lt;h1&gt;heading &lt;/h1&gt;
+              &lt;p&gt; Example of "content!" into an HTML element with id="something you want to write":&lt;/p&gt;
+              &lt;p id="something you want to write&gt; &lt;/p&gt;
+              &lt;script&gt;
+              document.getElementById("something you want to write").innerHTML = "content!";
+              &lt;/script&gt;
+            &lt;/body&gt;
+        &lt;/html&gt;</code></pre>
+      
+        <img src="have java hello.png" alt="Ex)" width="70%" height="200">
+        
+    </div>
+    <div class="w3-third w3-container">
+      <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
+    </div>
+  </div>
+
+ 
+
+  <div class="w3-row">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">&lt;script&gt;</h1>
+      <p> This element is used to define a block of JavaScript code that is executed by the web browser</p>
+      <p> &lt;script&gt; element can be placed in the &lt;head&gt; or &lt;body&gt; sections of the HTML document.  </p>
+      <p> &lt;head&gt; section, used to define global variables or functions that are used throughout the page and &lt;body&gt; section, used to define script that is specific to a certain area of the page.  </p>
+  
+      <h2>My JavaScript with image</h2>
+      <p> JavaScript can change the value of the src  of image. Like this!</p>
+      
+      <script>
+      function light(sw) {
+        var pic;
+        if (sw == 0) {
+          pic = "picoff.png"
+        } else {
+          pic = "picon.png"
+        }
+        document.getElementById('myImage').src = pic;
+      }
+      </script>
+      
+      <img id="myImage" src="picoff.png" width="100" height="180">
+      
+      <p>
+      <button type="button" onclick="light(1)">Light On</button>
+      <button type="button" onclick="light(0)">Light Off</button>
+      </p>
+      
+      <img src="java light.png" alt="Ex)" width="60%" height="200">
+      
+
+     </div>
+    <div class="w3-third w3-container">
+      <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a class="w3-button w3-hover-black" href="Java CSS website.html">1</a>
+      <a class="w3-button w3-black" href="JAva script web.html">2</a>
+    </div>
+  </div>
+
+  <footer id="myFooter">
+    <div class="w3-container w3-theme-l2 w3-padding-32">
+      <h4>Footer</h4>
+    </div>
+
+    <div class="w3-container w3-theme-l1">
+      <p>Powered by Victor</p>
+    </div>
+  </footer>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+    overlayBg.style.display = "none";
+  } else {
+    mySidebar.style.display = 'block';
+    overlayBg.style.display = "block";
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+  mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Victor P.P</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+}
+
+table {
+      margin: 50px auto;
+        border-collapse: collapse;
+      }
+        th, td {
+        border: 3px solid #333;
+        padding: 30px;
+      }
+     th {
+        background-color: #f2f2f2;
+     }
+
+</style>
+</head>
+<body>
+
+
+
+<!-- Header -->
+<header class="w3-container w3-theme w3-padding" id="myHeader">
+    <i onclick="w3_open()" class="fa fa-bars w3-xlarge w3-button w3-theme"></i> 
+    <div class="w3-center">
+    <h4>BEAUTIFUL WEB SITES</h4>
+    <h1 class="w3-xxxlarge w3-animate-bottom">HTML language</h1>
+      <div class="w3-padding-32">
+      </div>
+    </div>
+  </header>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-theme-l1">Home</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Values</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">News</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Clients</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Partners</a>
+  </div>
+</div>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+    <i class="fa fa-remove"></i>
+  </a>
+  <h4 class="w3-bar-item"><b>Menu</b></h4>
+  <a class="w3-bar-item w3-button w3-hover-black" href="Style CSS website.html">Home</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="HTML CSS website design.html">HTML</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="CSS CSS website.html">CSS</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="Java CSS website.html">Java</a>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="w3-main" style="margin-left:250px">
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">HTML</h1>
+      <p>HTML stands for Hypertext Markup Language. It is the standard markup language used to create webpages. HTML is the backbone of any website and provides the structure and content of the webpage.
+ It uses a series of tags to define the elements and content of a webpage. Tags are enclosed in angle brackets (< and >) and usually come in pairs, with an opening tag and a closing tag. The opening tag identifies the beginning of the element and the closing tag identifies the end of the element. The content of the element is placed between the opening and closing tags. At the below, it shows the example to structure of the website.
+        </p>
+<p>The following type shows a basic structure</p>
+
+<pre><code>&lt;!DOCTYPE html&gt;
+  &lt;html&gt;
+    &lt;head&gt;
+      &lt;title&gt;Page Title&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+      &lt;h1&gt;This is a heading&lt;/h1&gt;
+      &lt;p&gt;This is a paragraph.&lt;/p&gt;
+    &lt;/body&gt;
+  &lt;/html&gt;</code></pre>
+        
+    </div>
+    <div class="w3-third w3-container">
+      <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
+    </div>
+  </div>
+
+  <table id="customers2" style="width:80%">
+
+    <tr>
+     <th><img src="Victor HTML.jpg" alt="HTML Structure" width="100%" height="400"></th>
+     <th><img src="Victor 2 HTM.jpg" alt="HTML Structure" width="100%" height="400"></th>
+    </tr>
+    </table>
+ 
+
+  <div class="w3-row">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">&lt;head&gt;</h1>
+      <p> The &lt;head&gt; section is typically used to contain metadata and other non-visible information about a webpage. This includes the webpage's title, any additional keywords or descriptions that are used by search engines or social media platforms, and references to external stylesheets or scripts that the webpage may need to function properly.      </p>
+      <p>  In this example, the <head> section contains several key elements: </p>
+        <pre><code>&lt;!DOCTYPE html&gt;
+      &lt;html&gt;
+        &lt;head&gt;
+          &lt;title&gt;title of the webpage&lt;/title&gt;
+          &lt;meta character encoding for the webpage&gt;
+          &lt;meta tag that sets the viewport properties for a webpage&gt;
+          &lt;link links to an external CSS stylesheet that defines the visual style of the webpage.   &gt;
+        &lt;/head&gt;
+      &lt;/html&gt;</code></pre>
+
+      <p>- The &lt;title&gt; element sets the title of the webpage, which is displayed in the browser tab or window title bar.</p>
+
+      <p>- The &lt;meta&gt; elements provide additional information about the webpage </p>
+
+      <p> - The &lt;link&gt; elements provide information about the visual style webpage </p>
+
+      <img src="HEad ><.png" alt="Ex)" width="70%" height="150">
+
+     </div>
+    <div class="w3-third w3-container">
+      <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a class="w3-button w3-black" href="HTML CSS website design.html">1</a>
+      <a class="w3-button w3-hover-black" href="Head CSS design.html">2</a>
+      <a class="w3-button w3-hover-black" href="Table CSS design.html">3</a>
+      <a class="w3-button w3-hover-black" href="CSS CSS website.html">»</a>
+    </div>
+  </div>
+
+  <footer id="myFooter">
+    <div class="w3-container w3-theme-l2 w3-padding-32">
+      <h4>Footer</h4>
+    </div>
+
+    <div class="w3-container w3-theme-l1">
+      <p>Powered by Victor</p>
+    </div>
+  </footer>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+    overlayBg.style.display = "none";
+  } else {
+    mySidebar.style.display = 'block';
+    overlayBg.style.display = "block";
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+  mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}
+</script>
+
+</body>
+</html>
